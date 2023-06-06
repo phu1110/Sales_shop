@@ -137,7 +137,15 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Models\Abstract\AuditTable.cs" />
+    <Compile Include="Models\Abstract\IAudiTable.cs" />
     <Compile Include="Models\Domain\Footer.cs" />
+    <Compile Include="Models\Domain\Menu.cs" />
+    <Compile Include="Models\Domain\MenuGroup.cs" />
+    <Compile Include="Models\Domain\Order.cs" />
+    <Compile Include="Models\Domain\OrderDetails.cs" />
+    <Compile Include="Models\Domain\ProductCategories.cs" />
+    <Compile Include="Models\Domain\Products.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
